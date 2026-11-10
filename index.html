@@ -1,127 +1,156 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookspace - Toko Buku</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <nav class="navbar">
-            <a href="#beranda" class="nama-toko">Bookspace</a>
-            <div class="menu">
-                <a href="#beranda">Beranda</a>
-                <a href="#kategori">Kategori</a>
-                <a href="#koleksi">Koleksi</a>
-                <a href="#tentang">Tentang</a>
-            </div>
-            <a href="#koleksi" class="tombol-nav">Jelajahi Buku</a>
-        </nav>
-    </header>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bookspace - Toko Buku</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<nav class="navbar">
+				<a href="#beranda" class="nama-toko">Bookspace</a>
+				<div class="menu">
+					<a href="#beranda">Beranda</a>
+					<a href="#kategori">Kategori</a>
+					<a href="#koleksi">Koleksi</a>
+					<a href="#tentang">Tentang</a>
+				</div>
+				<a href="#koleksi" class="tombol-nav">Jelajahi Buku</a>
+			</nav>
+		</header>
 
-    <main>
-        <section class="hero" id="beranda">
-            <div class="hero-teks">
-                <p class="label">TEMUKAN CERITA BARU</p>
-                <h1>Setiap buku punya cerita, temukan ceritamu.</h1>
-                <p class="deskripsi">Temukan buku pilihan untuk menemani waktu luang, menambah pengetahuan, dan membuka sudut pandang baru.</p>
-                <a href="#koleksi" class="tombol-utama">Lihat Koleksi</a>
-            </div>
-            <div class="hero-gambar">
-                <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=85" alt="Tumpukan buku di atas meja">
-            </div>
-        </section>
+		<main>
+			<section class="hero" id="beranda">
+				<div class="hero-teks">
+					<p class="label">TEMUKAN CERITA BARU</p>
+					<h1>Setiap buku punya cerita, temukan ceritamu.</h1>
+					<p class="deskripsi">
+						Temukan buku pilihan untuk menemani waktu luang, menambah
+						pengetahuan, dan membuka sudut pandang baru.
+					</p>
+					<a href="#koleksi" class="tombol-utama">Lihat Koleksi</a>
+				</div>
+				<div class="hero-gambar">
+					<img
+						src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=85"
+						alt="Tumpukan buku di atas meja"
+					/>
+				</div>
+			</section>
 
-        <section class="kategori" id="kategori">
-            <div class="judul-bagian">
-                <p class="label">PILIH SESUAI MINATMU</p>
-                <h2>Kategori Buku</h2>
-            </div>
-            <div class="daftar-kategori">
-                <a href="#koleksi">Novel</a>
-                <a href="#koleksi">Pendidikan</a>
-                <a href="#koleksi">Teknologi</a>
-                <a href="#koleksi">Bisnis</a>
-            </div>
-        </section>
+			<section class="kategori" id="kategori">
+				<div class="judul-bagian">
+					<p class="label">PILIH SESUAI MINATMU</p>
+					<h2>Kategori Buku</h2>
+				</div>
+				<div class="daftar-kategori">
+					<a href="#koleksi">Novel</a>
+					<a href="#koleksi">Pendidikan</a>
+					<a href="#koleksi">Teknologi</a>
+					<a href="#koleksi">Bisnis</a>
+				</div>
+			</section>
 
-        <section class="koleksi" id="koleksi">
-            <div class="judul-bagian judul-koleksi">
-                <div>
-                    <p class="label">PILIHAN UNTUKMU</p>
-                    <h2>Buku Pilihan</h2>
-                </div>
-                <p class="catatan-koleksi">Beberapa bacaan menarik yang bisa kamu mulai hari ini.</p>
-            </div>
+			<section class="koleksi" id="koleksi">
+				<div class="judul-bagian judul-koleksi">
+					<div>
+						<p class="label">PILIHAN UNTUKMU</p>
+						<h2>Buku Pilihan</h2>
+					</div>
+					<p class="catatan-koleksi">
+						Beberapa bacaan menarik yang bisa kamu mulai hari ini.
+					</p>
+				</div>
 
-            <div class="daftar-buku">
-                <article class="kartu-buku">
-                    <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=700&q=85" alt="Buku di atas meja">
-                    <div class="info-buku">
-                        <p class="jenis-buku">NOVEL</p>
-                        <h3>Laut Bercerita</h3>
-                        <p class="penulis">Leila S. Chudori</p>
-                        <p class="harga">Rp 95.000</p>
-                        <a href="#kontak" class="tautan-buku">Lihat Buku</a>
-                    </div>
-                </article>
+				<div class="daftar-buku">
+					<article class="kartu-buku">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQslQTd_D9BckefKCb9KcHB6-89zUPKMUyzHDfyPEARb1NV0a9Q4WvxNwTU&s=10"
+							alt="Buku di atas meja"
+						/>
+						<div class="info-buku">
+							<p class="jenis-buku">NOVEL</p>
+							<h3>Laut Bercerita</h3>
+							<p class="penulis">Leila S. Chudori</p>
+							<p class="harga">Rp 95.000</p>
+							<a href="#kontak" class="tautan-buku">Lihat Buku</a>
+						</div>
+					</article>
 
-                <article class="kartu-buku">
-                    <img src="https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=700&q=85" alt="Buku terbuka untuk dibaca">
-                    <div class="info-buku">
-                        <p class="jenis-buku">PENGEMBANGAN DIRI</p>
-                        <h3>Atomic Habits</h3>
-                        <p class="penulis">James Clear</p>
-                        <p class="harga">Rp 89.000</p>
-                        <a href="#kontak" class="tautan-buku">Lihat Buku</a>
-                    </div>
-                </article>
+					<article class="kartu-buku">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKzhE3unGxiwnz5GV4EKdeNomsFy63v6g3zyhYuGpNIa_Ks6GPvaRGk2E&s=10"
+							alt="Buku terbuka untuk dibaca"
+						/>
+						<div class="info-buku">
+							<p class="jenis-buku">PENGEMBANGAN DIRI</p>
+							<h3>Atomic Habits</h3>
+							<p class="penulis">James Clear</p>
+							<p class="harga">Rp 89.000</p>
+							<a href="#kontak" class="tautan-buku">Lihat Buku</a>
+						</div>
+					</article>
 
-                <article class="kartu-buku">
-                    <img src="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=700&q=85" alt="Buku catatan dan alat tulis">
-                    <div class="info-buku">
-                        <p class="jenis-buku">PENDIDIKAN</p>
-                        <h3>Filosofi Teras</h3>
-                        <p class="penulis">Henry Manampiring</p>
-                        <p class="harga">Rp 79.000</p>
-                        <a href="#kontak" class="tautan-buku">Lihat Buku</a>
-                    </div>
-                </article>
+					<article class="kartu-buku">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbiZ8GIK8whInkW_OkmhGIQncLDsnXnjBy6Pln88T5z-uSzsVczfxpmJEj&s=10"
+							alt="Buku catatan dan alat tulis"
+						/>
+						<div class="info-buku">
+							<p class="jenis-buku">PENDIDIKAN</p>
+							<h3>Filosofi Teras</h3>
+							<p class="penulis">Henry Manampiring</p>
+							<p class="harga">Rp 79.000</p>
+							<a href="#kontak" class="tautan-buku">Lihat Buku</a>
+						</div>
+					</article>
 
-                <article class="kartu-buku">
-                    <img src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=700&q=85" alt="Rak buku di perpustakaan">
-                    <div class="info-buku">
-                        <p class="jenis-buku">BISNIS</p>
-                        <h3>Psychology of Money</h3>
-                        <p class="penulis">Morgan Housel</p>
-                        <p class="harga">Rp 92.000</p>
-                        <a href="#kontak" class="tautan-buku">Lihat Buku</a>
-                    </div>
-                </article>
-            </div>
-        </section>
+					<article class="kartu-buku">
+						<img
+							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0MJeFWc77Bk4SZvybdzn2znzU_cmft8rh-CkFn0AOHdgofEcB-e9vjqfd&s=10"
+							alt="Rak buku di perpustakaan"
+						/>
+						<div class="info-buku">
+							<p class="jenis-buku">BISNIS</p>
+							<h3>Psychology of Money</h3>
+							<p class="penulis">Morgan Housel</p>
+							<p class="harga">Rp 92.000</p>
+							<a href="#kontak" class="tautan-buku">Lihat Buku</a>
+						</div>
+					</article>
+				</div>
+			</section>
 
-        <section class="tentang" id="tentang">
-            <div>
-                <p class="label">SEDIKIT TENTANG KAMI</p>
-                <h2>Ruang kecil untuk penjelajah ide.</h2>
-            </div>
-            <p>Bookspace hadir untuk membuat kegiatan membaca terasa lebih dekat dan menyenangkan. Kami percaya, satu buku yang tepat bisa membawa banyak inspirasi dalam kehidupan sehari-hari.</p>
-        </section>
+			<section class="tentang" id="tentang">
+				<div>
+					<p class="label">SEDIKIT TENTANG KAMI</p>
+					<h2>Ruang kecil untuk penjelajah ide.</h2>
+				</div>
+				<p>
+					Bookspace hadir untuk membuat kegiatan membaca terasa lebih dekat dan
+					menyenangkan. Kami percaya, satu buku yang tepat bisa membawa banyak
+					inspirasi dalam kehidupan sehari-hari.
+				</p>
+			</section>
 
-        <section class="kontak" id="kontak">
-            <h2>Ayo mulai cerita barumu.</h2>
-            <p>Punya pertanyaan tentang koleksi buku kami? Silakan hubungi Bookspace.</p>
-            <a href="#tentang" class="tombol-utama">Hubungi Kami</a>
-        </section>
-    </main>
+			<section class="kontak" id="kontak">
+				<h2>Ayo mulai cerita barumu.</h2>
+				<p>
+					Punya pertanyaan tentang koleksi buku kami? Silakan hubungi Bookspace.
+				</p>
+				<a href="#tentang" class="tombol-utama">Hubungi Kami</a>
+			</section>
+		</main>
 
-    <footer>
-        <p>© 2026 Bookspace. Temukan cerita favoritmu di sini.</p>
-    </footer>
-</body>
+		<footer>
+			<p>© 2026 Bookspace. Temukan cerita favoritmu di sini.</p>
+		</footer>
+	</body>
 </html>
